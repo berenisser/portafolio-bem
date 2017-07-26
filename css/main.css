@@ -85,14 +85,27 @@ section {
     display: inline-block;
     text-align: center; }
     section .cuerpo__redes--item {
+      display: inline-block;
       margin-right: 20px;
       cursor: pointer; }
 
 .trabajo {
   margin: 0 auto;
+  width: 100%;
   padding: 60px;
   background-color: #F04949;
-  height: 350px; }
+  height: 350px;
+  display: inline-block; }
+
+.pie {
+  background: #F04949; }
+
+.pie__item--center {
+  font-size: 16px;
+  color: #fff;
+  text-align: center !important;
+  padding: 20px;
+  margin: 0; }
 
 body {
   padding: 0;

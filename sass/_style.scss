@@ -101,6 +101,7 @@ section{
 		display: inline-block;
 		text-align: center;
 		&--item{
+			display: inline-block;
 			margin-right: 20px;
 			cursor: pointer;
 		}
@@ -109,7 +110,20 @@ section{
 
 .trabajo{
 	margin: 0 auto;
+	width: 100%;
 	padding: 60px;
 	background-color: $fondo; 
 	height: 350px;
+	display: inline-block;
+}
+
+.pie{
+	background: $fondo;
+}
+.pie__item--center{
+	font-size: 16px;
+	color: $white;
+	text-align: center !important;
+	padding: 20px;
+	margin: 0;
 }
